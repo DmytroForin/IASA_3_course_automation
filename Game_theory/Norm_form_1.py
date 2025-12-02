@@ -35,7 +35,7 @@ for i in range(len(s[0])):
         w2=temp-e2(j)
         print(f"{s[0][i]}{s[1][j]}: {(w1,w2)}")
 
-# сделай кластерами
+
 for i in range(len(s[1])**len(s[0])):
     s2.append(sys_transform(i,len(s[1])))
 for i in range(len(s2)):

@@ -11,15 +11,21 @@ print("enter quantity of parameters")
 quantity_of_parametres=int(input())
 '''
 
-alts_2_sheet="Sheet4"
-quant_alts2=5
-quantity_of_parametres=6
-quantity_of_alternatives=[2,4,5,4,2,4]
+alts_2_sheet="Sheet4"# лист в основній таблиці де зберігаються альтернативи другого етапу
+quant_alts2=5 # кількість альтернатив на другому етапі
+quantity_of_parametres=6 #кількість альтернатив на першому етапі
+quantity_of_alternatives=[2,5,2,5,7,4]# кількість альтернатив по кожному фактору в основній таблиці(к-ть рядків)
 output_file="output1.xlsx"
 # ЗЧИТАТИ ТАБЛИЦЮ ПОЧАТКОВИХ ЙМОВІРНОСТЕЙ
-path_1=["Чічік Анастасія МСС2.xlsx", "Sheet1"]
-path_temp=["Book1.xlsx","Sheet1","Sheet2"]
+path_1=["Форін МСС 2.xlsx", "Sheet1"] # Основна таблиця
+path_temp=["Book1.xlsx","Sheet1","Sheet2"] # Перехресна таблиця з Book1
 
+#########################################
+#########################################
+#########################################
+######################################### Далі все автоматизовано має бути
+#########################################
+#########################################
 alts_w_prob=[]
 parameters_alts=[]
 for i in range(quantity_of_parametres):

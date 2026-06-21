@@ -12,8 +12,8 @@ quantity_of_parametres=int(input())
 '''
 
 alts_2_sheet="Sheet4"
-quant_alts2=6
-quantity_of_parametres=6
+quant_alts2=7
+quantity_of_parametres=5
 quantity_of_alternatives=[2,5,2,5,7,4]
 output_file="output1.xlsx"
 # ЗЧИТАТИ ТАБЛИЦЮ ПОЧАТКОВИХ ЙМОВІРНОСТЕЙ
